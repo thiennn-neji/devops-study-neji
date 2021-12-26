@@ -96,7 +96,7 @@ while True:
 	if new_user_name in netuser:
 		break
 
-	print "." ,
+	print (".", end='')
 	time.sleep(2)
 	i += i
 
